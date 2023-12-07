@@ -58,7 +58,7 @@
     @apply w-32 h-32 sm:w-60 sm:h-60
   }
   .logo-sm {
-    @apply text-lg mt-8 
+    @apply text-sm mt-12
   }
   .result-header {
     @apply text-3xl font-medium mt-4 mb-4 
