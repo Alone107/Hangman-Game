@@ -28,13 +28,12 @@
   }
 }
 
-
 @layer components {
   #app {
-    @apply h-screen flex flex-col justify-center items-center dark:text-white dark:bg-zinc-800;
+    @apply  h-screen  flex flex-col justify-center items-center dark:text-white dark:bg-zinc-800;
   }
   .logo {
-    @apply text-2xl sm:text-4xl md:text-5xl font-bold;
+    @apply  text-2xl sm:text-4xl md:text-5xl font-bold ;
   }
   .button-primary {
     @apply flex justify-center items-center bg-slate-300 dark:bg-indigo-600 rounded-md font-medium px-5 py-2
@@ -59,7 +58,7 @@
     @apply w-32 h-32 sm:w-60 sm:h-60
   }
   .logo-sm {
-    @apply text-xl
+    @apply text-xl pt-8
   }
   .result-header {
     @apply text-3xl font-medium mt-4 mb-4 
